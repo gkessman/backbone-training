@@ -37,8 +37,8 @@ define([
 
 		app_router.on('route:defaultAction', function(actions) {
 
-			var homeView = new HomeView();
-			homeView.render();
+			var listView = new ItemListView();
+			listView.render();
 
 		});
 
